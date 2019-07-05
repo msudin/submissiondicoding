@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bgColor">
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="55dp"
+        android:layout_height="65dp"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_toEndOf="@id/image_view"
+        android:layout_toRightOf="@id/image_view"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/posted_name_phone"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:text="@string/name_handphone"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/posted_by"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Posted"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:id="@+id/tag"
+                android:layout_width="3dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:text="|" />
+
+            <TextView
+                android:id="@+id/posted_date"
+                android:layout_marginLeft="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Posted Date"
+                android:textStyle="italic"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_height="1dp"
+            android:layout_marginBottom="2dp"
+            android:background="#0B0B0B"/>
+        <TextView
+            android:id="@+id/posted_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/deskripsi_handphone"
+            android:layout_marginBottom="3dp"
+            android:ellipsize="end"
+            android:maxLines="2" />
+    </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

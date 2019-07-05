@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SubmissionDicoding</string>
+    <string name="name_handphone">Nama Handphone</string>
+    <string name="deskripsi_handphone">Deskripsi Handphone</string>
+</resources>

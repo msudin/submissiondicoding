@@ -1,4 +1,4 @@
-# submissiondicoding
-Tabloid Gadget
+# Tabloid Gadget
+Submission Dicoding Android Pemula
 
 ## Tentang Aplikasi 

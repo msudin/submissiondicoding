@@ -2,7 +2,7 @@
 Submission Dicoding Android Pemula
 
 ## Tentang Aplikasi 
-Aplikasi ini menampilkan halaman informasi Hp terbaru beserta rincian diskripsinya. 
+Aplikasi ini menampilkan halaman informasi Hp terbaru beserta rincian deskripsinya. 
 
 #Dalam Aplikasi ini menampilkan : 
 1. Listview Gadget 
